@@ -998,7 +998,7 @@ export default function ListSection() {
         <div className={styles.top_sec}>
           {switchRender(pathName).options.options.map((item) => (
             <div className={styles.sm_container} key={item.id}>
-              <img src={`${item.img}`} alt="..." />
+              <img src={`./src/${item.img}`} alt="..." />
               <h3>{item.type}</h3>
             </div>
           ))}
@@ -1007,10 +1007,10 @@ export default function ListSection() {
       <div className={styles.main_list_sec}>
         {switchRender(pathName).data.map((item) => (
           <div className={styles.card} key={item.id}>
-            <img src={`${item.img}`} alt="..." />
+            <img src={`/src/${item.img}`} alt="..." />
             <div className={styles.card_cont}>
               <h4>{item.title}</h4>
-              <img src="/assets/Frame 10.png" alt="..." />
+              <img src="./src/assets/Frame 10.png" alt="..." />
               <h4>{item.price}</h4>
               <button className={styles.card_btn}>Add To Cart</button>
             </div>
