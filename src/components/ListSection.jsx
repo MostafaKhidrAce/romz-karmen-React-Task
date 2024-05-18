@@ -998,7 +998,7 @@ export default function ListSection() {
         <div className={styles.top_sec}>
           {switchRender(pathName).options.options.map((item) => (
             <div className={styles.sm_container} key={item.id}>
-              <img src={`./src/${item.img}`} alt="..." />
+              <img src={`${item.img}`} alt="..." />
               <h3>{item.type}</h3>
             </div>
           ))}
