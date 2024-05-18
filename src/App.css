@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  font-family: "Inter", sans-serif;
+}
+
+.the_main_sec {
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 120px;
+  gap: 50px;
+}
+.r_inp .range-slider__range {
+  background: rgba(133, 118, 202, 1);
+}
+.r_inp .range-slider__thumb {
+  background: rgba(133, 118, 202, 1);
+  width: 16px;
+  height: 16px;
+}
+.range-slider {
+  height: 4px;
+}

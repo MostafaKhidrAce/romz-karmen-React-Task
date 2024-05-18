@@ -1,0 +1,66 @@
+.container {
+  padding: 17px 24px;
+  min-width: 294px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  height: 712px;
+}
+.container .inp_filter {
+  padding: 14px 13px;
+  margin-bottom: 24px;
+  width: 100%;
+  border: 1px solid rgba(133, 118, 202, 1);
+  outline: none;
+}
+.container .inp_filter::placeholder {
+  color: rgba(133, 118, 202, 1);
+}
+.aside_list_sty {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 24px;
+}
+
+.aside_list_sty input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.aside_list_sty > div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 3px;
+}
+.container hr {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.pricing_con {
+  width: 100%;
+}
+.pricing_con_t {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pricing_inp {
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.pricing_inp_labels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1040px) {
+  .container {
+    display: none;
+  }
+}

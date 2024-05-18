@@ -1,0 +1,13 @@
+.container {
+  width: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+  padding-bottom: 17px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+.active_link {
+  color: rgba(133, 118, 202, 1);
+}
